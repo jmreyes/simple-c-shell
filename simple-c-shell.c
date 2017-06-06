@@ -559,6 +559,7 @@ int commandHandler(char * args[]){
 		}
 		// We launch the program with our method, indicating if we
 		// want background execution or not
+		args_aux[i] = NULL;
 		launchProg(args_aux,background);
 		
 		/**
